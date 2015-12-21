@@ -12,6 +12,8 @@ class Empresa(models.Model):
         verbose_name = 'empresa'
         verbose_name_plural = 'empresas'
         ordering=['nombre_real']
+        default_permissions = ('add', 'change', 'delete', 'view', 'list')
+
     def __unicode__(self):
         return unicode(self.nombre_real)
 
@@ -41,6 +43,8 @@ class Persona(models.Model):
         verbose_name = 'persona'
         verbose_name_plural = 'personas'
         ordering =[ 'apellido1', 'apellido2', 'nombre1']
+        default_permissions = ('add', 'change', 'delete', 'view', 'list')
+        
     def __unicode__(self):
         return '%s, %s' % (self.apellido1, self.nombre1)
     def save(self, *args, **kwargs):
