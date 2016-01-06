@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <title>aspid{% block title %}{% endblock %}</title>
     {% load static from staticfiles %}
@@ -8,9 +9,9 @@
     <link rel="stylesheet" href="{% static "css/progress.css" %}">
     <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
     <link rel="stylesheet" href="{% static "css/mystyles.css" %}">
+    <link rel="stylesheet" href="/static/css/{{request.session.database_name.color_back}}.css">
     <link rel="stylesheet" href="{% static "css/sticky-footer.css" %}">
     <script src="{% static "js/pace.min.js" %}"></script>
-    <!--<link rel="stylesheet" href="{{ STATIC_URL }}django_tables2/themes/paleblue/css/screen.css" />-->
     {% block headExtra %}
     {% endblock headExtra %}
 </head>
@@ -20,7 +21,7 @@
 <header>
     <div class="container-fluid">
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
+            <div class="container-cabecera">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -28,18 +29,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/"><div id="nombreapp"><strong>aspid</strong></div> <img src="{% static "admin/img/iselogo.png" %}" width="43" alt=""></a>
                 </div>
+                <a href="/"><div class="class_icono"><img src="{% static "img/logo_default.png" %}" width="32" alt=""></div></a>
+                <ul class="nav navbar-nav" id="nombreapp">
+                    <li class="dropdown">
+                        <a href="#" class="select_db" data-toggle="dropdown"><strong>{{request.session.database_name.display_name}}</strong><span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                             {% for k, v  in request.session.databases.iteritems %}
+                                <li class="database" name="{{v.NAME}}"><a href="#">{{v.NAME}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
                 {% if user.is_authenticated %}
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <form class="navbar-form navbar-left" role="search">
+                    <!--<form class="navbar-form navbar-left" role="search">
                         <div class="input-group">
                             <input type="text" class="form-control buscar_header" placeholder="Buscar">
                             <span class="input-group-btn">
                                 <button class="btn btn-default btn_buscar_header" type="button"><span class="glyphicon glyphicon-search lupa_header"></span></button>
                             </span>
                         </div>
-                    </form>
+                    </form>-->
                     <ul class="nav navbar-nav navbar">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th"></span> Sistemas <span class="caret"></span></a>
@@ -60,7 +71,7 @@
                                     {% if user.perfil.avatar.url_30x30 %}
                                         <img id="avatar-th" src="{{user.perfil.avatar.url_30x30}}" height="25" width="25"/>                                   
                                     {% else %}
-                                        <img id="avatar-th" src="{{MEDIA_URL}}/avatar_user/generic-user.30x30.png" height="25" width="25"/>
+                                        <img id="avatar-th" src="{{MEDIA_URL}}avatar_user/generic-user.30x30.png" height="25" width="25"/>
                                     {% endif %}
                                 </span> 
                                 {% if user.first_name %}
@@ -79,11 +90,8 @@
                 </div><!-- /.navbar-collapse -->
                 {% endif %}
             </div>
-        </div>
-    </nav>
-    {% if request.session.database_name != 'iseapp_produccion' %}
-        <div class="azulazul">{{request.session.database_name}}</div>
-    {% endif %}
+        </nav>
+    </div>
 </header>
 <div class="container-fluid">
     <div class="row">
@@ -124,7 +132,7 @@
         <br/><span class="glyphicon glyphicon-envelope"></span> rubenalvarengan@gmail.com
         <br/><span class="glyphicon glyphicon-phone"></span> 0961 865406
         <br/><br/>
-        <div class="align-right">&copy; Copyright 2015 <strong>develpy</strong></div>
+        <div class="align-right">&copy; Copyright 2016 <strong>develpy</strong></div>
     </div>
 </div>
 
@@ -135,6 +143,18 @@
         }); 
         $('.about').click(function() {
             $('.about').css("visibility", "hidden");
+        }); 
+        $('.database').click(function() {
+            var database = $(this).attr("name");
+            console.log(database);
+            $.ajax({
+                data : {'database_name' : database  },
+                url : 'change_database',
+                type: 'get',
+                success : function(data){
+                    $('.id_curso_alumno').html(data);
+                }                                
+            });
         }); 
     });
     </script>

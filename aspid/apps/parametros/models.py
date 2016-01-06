@@ -4,6 +4,17 @@ from django.db import models
 
 from django.contrib.auth.models import Permission
 
+
+
+from django.conf import settings
+from django.contrib.auth.models import AbstractUser
+from django.utils.translation import ugettext_lazy as _
+from django.utils import timezone
+
+#from ezerve.utils import gv
+
+
+
 class Empresa(models.Model):
     nombre = models.CharField(max_length=100, verbose_name='Nombre')
     class Meta:
@@ -44,3 +55,37 @@ class Enlace(models.Model):
         verbose_name_plural = 'Enlaces'
     def __unicode__(self):
         return '%s' % (self.nombre)
+
+
+
+
+
+AUTH_USER_MODEL = getattr(settings, 'AUTH_USER_MODEL', 'auth.User')
+
+class ClientDBInfo(models.Model):
+    name = models.CharField(max_length=255, verbose_name=_('DB Name'), help_text=_('Enter a Database name which is available to client'))
+    display_name = models.CharField(max_length=255, verbose_name=_('DB Display Name'), help_text=_('Enter a Database display name which is for lable'))
+    color_back = models.CharField(max_length=12, verbose_name=_('Color de Fondo'), help_text=_('Ingresa el color caracteristico'))
+    # logo = models.ImageField(upload_to='clientlogo', default='clientlogo/no_clientphoto.png', blank=True)
+    # contact_address_line1 = models.CharField(max_length=140, blank=True)
+    # contact_address_line2 = models.CharField(max_length=140, blank=True)
+    # contact_address_line3 = models.CharField(max_length=140, blank=True)
+    # city = models.CharField(max_length=140, blank=True)
+    # country = models.ForeignKey(Country)
+    # state = models.CharField(max_length=140, blank=True)
+    # zipcode = models.IntegerField(default=0)
+    # latitude = models.FloatField(default=0.0)
+    # longitude = models.FloatField(default=0.0)
+
+    # created = models.DateTimeField(default=timezone.now, auto_now_add=True)
+    # modified = models.DateTimeField(default=timezone.now, auto_now=True)
+    created_by = models.ForeignKey(AUTH_USER_MODEL,related_name = "%(class)s_createdby")
+    updated_by = models.ForeignKey(AUTH_USER_MODEL, related_name = "%(class)s_updatedby")
+
+    def __unicode__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = _('ClientDBInfo')
+        verbose_name_plural = _('ClientDBInfos')
+        ordering = ('name',)

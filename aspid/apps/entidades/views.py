@@ -14,8 +14,8 @@ class EmpresaSingleTableView(SingleTableView):
     def get_queryset(self):
         table = super(EmpresaSingleTableView, self).get_queryset()
         q=self.request.GET.get("q")
-        if q: return table.filter(nombre__icontains=q)#.order_by(sort)
-        else: return table
+        if q: return table.using(self.request.session['db']).filter(nombre__icontains=q)#.order_by(sort)
+        else: return table.using(self.request.session['db'])
 
     def get_context_data(self, **kwargs):
         context = super(EmpresaSingleTableView, self).get_context_data(**kwargs)

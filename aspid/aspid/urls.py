@@ -18,15 +18,23 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.contrib.auth.views import login
 from django.contrib.auth.decorators import login_required, permission_required
-
+from django.conf import settings
+from django.conf.urls.static import static
 from .views import IndexView
+from apps.parametros.views import index
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('django.contrib.auth.urls')),
-    url(r'^accounts/login/$', login, {'template_name': 'index.html'}),
+    #url(r'^accounts/login/$', login, {'template_name': 'index.html'}),
+    url(r'^accounts/login/$', index, ),
     url(r'^$', login_required(IndexView.as_view()), name ='index'),
 
 
+    url(r'^change_database/$', 'aspid.views.change_database', name ='change_database'),
+
+
+    url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT,}),
+
     url(r'^entidades/', include('apps.entidades.urls', namespace="entidades", app_name='entidades')),
-]
+]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

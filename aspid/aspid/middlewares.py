@@ -14,10 +14,11 @@ class RequestAddSessionVars(object):
     def process_view(self, request, view_func, view_args, view_kwargs):
         try: sistema = Aplicacion.objects.get(index=(request.path).split("/")[1]).id
         except: sistema = False
-        request.session["database_name"]=settings.DATABASES['default']['NAME']
+
+        request.session["databases"]=settings.DATABASES
+
+        #request.session["database_name"]=settings.DATABASES['default']['NAME']
         request.session["sistema"]=sistema
-
-
 
 
 

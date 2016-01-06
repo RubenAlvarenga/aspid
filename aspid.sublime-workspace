@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"bor",
+				"border-left"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ge",
+				"get_user_model"
+			],
+			[
+				"Re",
+				"RequestAddSessionVars"
+			],
+			[
+				"w",
+				"width	Attr"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ps",
+				"position"
+			],
+			[
 				"Mode",
 				"Model	Model"
 			],
@@ -52,10 +104,6 @@
 				"TimeStampModel"
 			],
 			[
-				"w",
-				"write"
-			],
-			[
 				"n",
 				"nro_recibo"
 			],
@@ -100,19 +148,7 @@
 				"FilteredSelectMultiple"
 			],
 			[
-				"pad",
-				"padding-top"
-			],
-			[
-				"ma",
-				"margin-bottom"
-			],
-			[
 				"margi",
-				"margin-bottom"
-			],
-			[
-				"mar",
 				"margin-bottom"
 			],
 			[
@@ -184,10 +220,6 @@
 				"font-weight"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"co",
 				"codigo"
 			],
@@ -206,10 +238,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"obje",
@@ -246,10 +274,6 @@
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"Re",
-				"Rendicion"
 			],
 			[
 				"date",
@@ -452,10 +476,6 @@
 				"CursoUpdateView"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"pos",
 				"position"
 			],
@@ -494,92 +514,16 @@
 			[
 				"plan",
 				"plan_pago"
-			],
-			[
-				"re",
-				"request"
-			],
-			[
-				"s",
-				"submenu"
-			],
-			[
-				"pendientes",
-				"pendientesEnvios"
-			],
-			[
-				"archiv",
-				"archivoAprocesar"
-			],
-			[
-				"arch",
-				"archivoAprocesar"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "aspid/apps/entidades/urls.py",
+			"contents": "\n\n\nselect * from auth_user\n\n\nselect * from static_precompiler_dependency\n\n\n\\dt\n\nselect * from parametros_clientdbinfo",
 			"settings":
 			{
-				"buffer_size": 453,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/aspid/urls.py",
-			"settings":
-			{
-				"buffer_size": 1274,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/aspid/views.py",
-			"settings":
-			{
-				"buffer_size": 436,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/aspid/settings/base.py",
-			"settings":
-			{
-				"buffer_size": 3386,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/apps/entidades/views.py",
-			"settings":
-			{
-				"buffer_size": 2628,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/static/css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 146106,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/templates/base/base.html",
-			"settings":
-			{
-				"buffer_size": 7076,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aspid/aspid/context_processors.py",
-			"settings":
-			{
-				"buffer_size": 2776,
+				"buffer_size": 117,
 				"line_ending": "Unix"
 			}
 		},
@@ -587,15 +531,15 @@
 			"file": "aspid/apps/parametros/models.py",
 			"settings":
 			{
-				"buffer_size": 1601,
+				"buffer_size": 3498,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\n\n\n\n\nselect * from auth_user",
+			"file": "aspid/apps/parametros/migrations/0005_auto_20160105_1600.py",
 			"settings":
 			{
-				"buffer_size": 28,
+				"buffer_size": 643,
 				"line_ending": "Unix"
 			}
 		}
@@ -713,42 +657,52 @@
 		"/home/ruben/apps/aspid/aspid",
 		"/home/ruben/apps/aspid/aspid/apps",
 		"/home/ruben/apps/aspid/aspid/apps/parametros",
-		"/home/ruben/apps/aspid/aspid/aspid",
-		"/home/ruben/apps/aspid/aspid/static",
+		"/home/ruben/apps/aspid/aspid/apps/parametros/migrations",
 		"/home/ruben/apps/aspid/aspid/static/css",
-		"/home/ruben/apps/aspid/aspid/static/js",
-		"/home/ruben/apps/aspid/aspid/templates/base"
+		"/home/ruben/apps/aspid/aspid/static/wf",
+		"/home/ruben/apps/aspid/aspid/static/wf/less"
 	],
 	"file_history":
 	[
-		"/home/ruben/apps/aspid/aspid/apps/views.py",
-		"/home/ruben/apps/aspid/aspid/aspid/settings/base.py",
-		"/home/ruben/apps/aspid/aspid/apps/parametros/admin.py",
-		"/home/ruben/apps/aspid/aspid/apps/entidades/admin.py",
-		"/home/ruben/apps/aspid/aspid/templates/base/base.html",
-		"/home/ruben/apps/aspid/aspid/templates/base/divided.html",
-		"/home/ruben/apps/aspid/aspid/templates/base/menuapp.html",
-		"/home/ruben/apps/aspid/aspid/apps/entidades/templatetags/verbose_name_tags.py",
+		"/home/ruben/apps/aspid/aspid/static/css/mystyles.css",
+		"/home/ruben/apps/aspid/aspid/templates/base/login.html",
+		"/home/ruben/apps/aspid/aspid/static/css/rojo.css",
 		"/home/ruben/apps/aspid/aspid/apps/parametros/models.py",
-		"/home/ruben/apps/aspid/aspid/aspid/urls.py",
-		"/home/ruben/apps/aspid/aspid/apps/entidades/models.py",
+		"/home/ruben/apps/aspid/aspid/aspid/middlewares.py",
+		"/home/ruben/apps/aspid/aspid/templates/index.html",
+		"/home/ruben/apps/aspid/aspid/templates/base/base.html",
+		"/home/ruben/apps/aspid/aspid/apps/parametros/views.py",
 		"/home/ruben/apps/aspid/aspid/aspid/settings/local.py",
-		"/home/ruben/apps/aspid/requirements/local.txt",
+		"/home/ruben/apps/aspid/aspid/apps/entidades/urls.py",
+		"/home/ruben/apps/aspid/aspid/aspid/urls.py",
+		"/home/ruben/apps/aspid/aspid/aspid/settings/base.py",
+		"/home/ruben/apps/aspid/requirements/base.txt",
+		"/home/ruben/apps/aspid/aspid/apps/parametros/forms.py",
 		"/home/ruben/apps/aspid/aspid/apps/entidades/views.py",
+		"/home/ruben/apps/aspid/aspid/apps/parametros/admin.py",
+		"/home/ruben/apps/aspid/aspid/aspid/views.py",
+		"/home/ruben/apps/aspid/aspid/aspid/auth_backends.py",
+		"/home/ruben/apps/aspid/requirements/local.txt",
+		"/home/ruben/apps/aspid/aspid/aspid/settings/models.py",
+		"/home/ruben/apps/aspid/aspid/templates/base/menuapp.html",
+		"/home/ruben/apps/aspid/aspid/templates/base/divided.html",
+		"/home/ruben/apps/aspid/aspid/aspid/context_processors.py",
+		"/home/ruben/apps/aspid/aspid/apps/entidades/models.py",
+		"/home/ruben/apps/aspid/aspid/static/css/bootstrap.css",
+		"/home/ruben/apps/aspid/aspid/apps/views.py",
+		"/home/ruben/apps/aspid/aspid/apps/entidades/admin.py",
+		"/home/ruben/apps/aspid/aspid/apps/entidades/templatetags/verbose_name_tags.py",
 		"/home/ruben/apps/aspid/aspid/templates/base/generic_list.html",
 		"/home/ruben/apps/aspid/aspid/apps/middlewares.py",
 		"/home/ruben/apps/aspid/aspid/apps/context_processors.py",
 		"/home/ruben/apps/iseapp/iseapp/iseapp/settings/base.py",
-		"/home/ruben/apps/aspid/aspid/static/css/mystyles.css",
 		"/home/ruben/apps/aspid/aspid/static/js/pace.min.js",
 		"/home/ruben/apps/aspid/aspid/templates/base/about.html",
 		"/home/ruben/apps/iseapp/iseapp/templates/base/base.html",
 		"/home/ruben/apps/iseapp/iseapp/static/css/misEstilos.css",
 		"/home/ruben/apps/iseapp/iseapp/static/js/mijs.js",
 		"/home/ruben/apps/iseapp/iseapp/static/css/progress.css",
-		"/home/ruben/apps/aspid/requirements/base.txt",
 		"/home/ruben/apps/iseapp/iseapp/iseapp/urls.py",
-		"/home/ruben/apps/aspid/aspid/apps/entidades/urls.py",
 		"/home/ruben/apps/aspid/aspid/aspid/settings.py.example",
 		"/home/ruben/apps/aspid/aspid/aspid/settings/staging.py",
 		"/home/ruben/apps/aspid/aspid/aspid/settings/production.py",
@@ -837,18 +791,7 @@
 		"/home/ruben/apps/iseapp/recibo.txt",
 		"/home/ruben/apps/iseapp/iseapp/iseapp/settings/production.py",
 		"/home/ruben/Escritorio/log de iseapp server.txt",
-		"/home/ruben/apps/iseapp/iseapp/templates/autorizaciones/addUser.html",
-		"/home/ruben/apps/iseapp/iseapp/templates/finanzas/lstPlanPago.html",
-		"/home/ruben/apps/iseapp/iseapp/apps/rendiciones/forms.py",
-		"/home/ruben/apps/iseapp/iseapp/apps/entidades/forms.py",
-		"/home/ruben/apps/iseapp/iseapp/apps/catedras/forms.py",
-		"/home/ruben/Descargas/000450_CSL_20151116.txt",
-		"/home/ruben/Descargas/000450_CSL_20151031.txt",
-		"/home/ruben/Escritorio/0017_auto_20151112_1354.py",
-		"/home/ruben/apps/iseapp/iseapp/apps/descuentos/functions.py",
-		"/home/ruben/apps/iseapp/iseapp/apps/descuentos/views.py",
-		"/home/ruben/apps/iseapp/iseapp/apps/aranceles/migrations/0017_auto_20151115_1725.py",
-		"/home/ruben/apps/iseapp/iseapp/apps/aranceles/urls.py"
+		"/home/ruben/apps/iseapp/iseapp/templates/autorizaciones/addUser.html"
 	],
 	"find":
 	{
@@ -869,6 +812,71 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"django.template.context_processors.media",
+			"context_processors",
+			"TEMPLATE_CONTEXT_PROCESSORS",
+			"static",
+			"navbar-inverse",
+			"STATIC",
+			"STATICFILES",
+			"STATICFILES_FINDERS",
+			"main-bg-color",
+			".navbar-inverse",
+			"nombreapp",
+			"navbar-header",
+			".navbar{",
+			"navbar",
+			"navbar ",
+			"navbar",
+			".navbar",
+			"bs-example-navbar-collapse-1",
+			"collapse",
+			"navbar-collapse",
+			"container-fluid",
+			"form-group",
+			"field.",
+			"i",
+			"glyphicon glyphicon-remove-sign align-left",
+			"alert alert-danger",
+			"form-login",
+			"form-control",
+			"form-contro",
+			"form.username.errors",
+			"request.session['db']",
+			"render_to_response",
+			"ict",
+			"Dict",
+			"pDict",
+			"logger",
+			"loger",
+			"fn",
+			"gv",
+			"AUTH_USER_MODEL",
+			"img-data",
+			"User",
+			"get_user",
+			"wrapper",
+			"panel",
+			"breadcrumb",
+			"container-fluid",
+			"ladoizquierdo",
+			"navbar",
+			"53px;",
+			": 53px;",
+			"height: 53px;",
+			"navbar-header",
+			"ME",
+			"MEDIA",
+			"nombreapp",
+			"navbar-brand",
+			"Perfil",
+			"autorizaciones",
+			"()\n",
+			"app_name",
+			"Aplicacion",
+			"MenuApp",
+			"apps",
+			"midd",
 			"aplicacion",
 			"app__app_name",
 			"'app'",
@@ -931,72 +939,7 @@
 			"horizon",
 			"apellido2",
 			"()\n",
-			"categoria",
-			"user",
-			"...     ",
-			"inicio",
-			"columna",
-			"replace_dc",
-			"1",
-			"BASE_DIR",
-			"datetime",
-			"prin",
-			"imprimi",
-			"impri",
-			"self",
-			"rendiciones_to_excel",
-			"csv",
-			"pdb",
-			"get_csv_from_dict_list",
-			"csv",
-			"v_",
-			"corte",
-			"acc",
-			"corte",
-			"TOTAL DE INGRESOS",
-			"csv",
-			"panel-body",
-			"h4",
-			"Curso",
-			"One",
-			".and_",
-			"and_",
-			".split(\" \")",
-			"None",
-			"alumno = self.request.GET.get(\"alumno\").split(\" \") ",
-			"645",
-			"csv",
-			"cdv",
-			"messa",
-			"user",
-			"RecivoSin",
-			"RecivoDe",
-			"prt_recibo",
-			"prtRecibo",
-			"list_rendicion",
-			"updUserForm",
-			"form_",
-			"_form",
-			"Perfil",
-			"perfil",
-			"Enlace",
-			"imprimir_re",
-			"impre",
-			"Periodo",
-			"for x in alumno",
-			"=alumno)",
-			"alumno",
-			"__in",
-			"defaul",
-			"field",
-			"btn-filtros",
-			"table",
-			"\n    ",
-			"    <li>sdsad</li>\n",
-			"<li>sdsad</li>",
-			"1236818",
-			"es_socio",
-			"DeleteVi"
+			"categoria"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1021,61 +964,36 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "aspid/apps/entidades/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 453,
+						"buffer_size": 117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								117,
+								117
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_name": "",
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1086,279 +1004,31 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "aspid/aspid/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1274,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1168,
-								1168
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "aspid/aspid/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "aspid/aspid/settings/base.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1763,
-								1763
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1368,12 +1038,16 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"default_dir": "/home/ruben/apps/aspid",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1383,20 +1057,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "aspid/apps/entidades/views.py",
+					"buffer": 1,
+					"file": "aspid/apps/parametros/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2628,
+						"buffer_size": 3498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								2339,
+								2339
 							]
 						],
 						"settings":
@@ -1404,36 +1078,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1444,11 +1093,31 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1458,7 +1127,12 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
@@ -1466,27 +1140,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 507.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "aspid/static/css/bootstrap.css",
+					"buffer": 2,
+					"file": "aspid/apps/parametros/migrations/0005_auto_20160105_1600.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 146106,
+						"buffer_size": 643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146087,
-								146087
+								495,
+								495
 							]
 						],
 						"settings":
@@ -1494,36 +1168,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1534,195 +1183,31 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 429.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "aspid/templates/base/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7076,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								161,
-								161
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "aspid/aspid/context_processors.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2776,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1242,
-								1242
-							],
-							[
-								1724,
-								1724
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1732,7 +1217,12 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
@@ -1744,185 +1234,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "aspid/apps/parametros/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1254,
-								1254
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 28,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								28
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_name": "",
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"default_dir": "/home/ruben/apps/aspid",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -1961,7 +1272,7 @@
 	"menu_visible": true,
 	"output.SQLExec":
 	{
-		"height": 656.0
+		"height": 168.0
 	},
 	"output.SQLExec.errors":
 	{
@@ -1985,20 +1296,140 @@
 		"selected_items":
 		[
 			[
+				"model",
+				"aspid/apps/parametros/models.py"
+			],
+			[
+				"logi",
+				"aspid/templates/base/login.html"
+			],
+			[
+				"mys",
+				"aspid/static/css/mystyles.css"
+			],
+			[
+				"login",
+				"aspid/templates/base/login.html"
+			],
+			[
+				"loca",
+				"aspid/aspid/settings/local.py"
+			],
+			[
+				"ur",
+				"aspid/aspid/urls.py"
+			],
+			[
 				"base",
-				"aspid/aspid/settings/base.py"
+				"aspid/templates/base/base.html"
+			],
+			[
+				"url",
+				"aspid/aspid/urls.py"
+			],
+			[
+				"inde",
+				"aspid/templates/index.html"
+			],
+			[
+				"log",
+				"aspid/templates/base/login.html"
+			],
+			[
+				"vie",
+				"aspid/apps/parametros/views.py"
+			],
+			[
+				"midd",
+				"aspid/aspid/middlewares.py"
+			],
+			[
+				"local",
+				"aspid/aspid/settings/local.py"
+			],
+			[
+				"reque",
+				"requirements/base.txt"
+			],
+			[
+				"mode",
+				"aspid/apps/parametros/models.py"
+			],
+			[
+				"form",
+				"aspid/apps/parametros/forms.py"
+			],
+			[
+				"lo",
+				"aspid/templates/base/login.html"
+			],
+			[
+				"mide",
+				"aspid/aspid/middlewares.py"
+			],
+			[
+				"midel",
+				"aspid/aspid/middlewares.py"
+			],
+			[
+				"view",
+				"aspid/apps/parametros/views.py"
+			],
+			[
+				"",
+				"aspid/apps/entidades/views.py"
+			],
+			[
+				"ad",
+				"aspid/apps/parametros/admin.py"
+			],
+			[
+				"login.html",
+				"aspid/templates/base/login.html"
+			],
+			[
+				"parame",
+				"aspid/apps/parametros/models.py"
+			],
+			[
+				"urls",
+				"aspid/aspid/urls.py"
+			],
+			[
+				"auth_backends",
+				"aspid/aspid/auth_backends.py"
+			],
+			[
+				"base.h",
+				"aspid/templates/base/base.html"
+			],
+			[
+				"my",
+				"aspid/static/css/mystyles.css"
+			],
+			[
+				"midle",
+				"aspid/aspid/middlewares.py"
+			],
+			[
+				"men",
+				"aspid/templates/base/menuapp.html"
+			],
+			[
+				"d",
+				"aspid/templates/base/divided.html"
+			],
+			[
+				"menuapp.html",
+				"aspid/templates/base/menuapp.html"
+			],
+			[
+				"divi",
+				"aspid/templates/base/divided.html"
 			],
 			[
 				"conte",
 				"aspid/aspid/context_processors.py"
-			],
-			[
-				"view",
-				"aspid/apps/entidades/views.py"
-			],
-			[
-				"url",
-				"aspid/apps/entidades/urls.py"
 			],
 			[
 				"bo",
@@ -2013,16 +1444,8 @@
 				"aspid/static/css/bootstrap.css"
 			],
 			[
-				"model",
-				"aspid/apps/parametros/models.py"
-			],
-			[
 				"admin",
 				"aspid/apps/entidades/admin.py"
-			],
-			[
-				"loca",
-				"aspid/aspid/settings/local.py"
 			],
 			[
 				"verbose_name_tags.py",
@@ -2033,20 +1456,8 @@
 				"aspid/templates/base/menuapp.html"
 			],
 			[
-				"divi",
-				"aspid/templates/base/divided.html"
-			],
-			[
-				"mide",
-				"aspid/apps/middlewares.py"
-			],
-			[
 				"sett",
 				"aspid/aspid/settings.py.example"
-			],
-			[
-				"mode",
-				"aspid/apps/entidades/models.py"
 			],
 			[
 				"gi",
@@ -2067,10 +1478,6 @@
 			[
 				"actio",
 				"apps/actions.py"
-			],
-			[
-				"local",
-				"iseapp/settings/local.py"
 			],
 			[
 				"generic_pdf_list.html",
@@ -2173,10 +1580,6 @@
 				"iseapp/templates/autorizaciones/detPerfil.html"
 			],
 			[
-				"form",
-				"iseapp/apps/autorizaciones/forms.py"
-			],
-			[
 				"re",
 				"recibo.txt"
 			],
@@ -2253,20 +1656,12 @@
 				"templates/finanzas/lstPlanPago.html"
 			],
 			[
-				"vie",
-				"apps/aranceles/views.py"
-			],
-			[
 				"defa",
 				"color/default.css"
 			],
 			[
 				"sty",
 				"css/style.css"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"rendicio",
@@ -2335,10 +1730,6 @@
 			[
 				"v",
 				"apps/autorizaciones/views.py"
-			],
-			[
-				"urls",
-				"apps/finanzas/urls.py"
 			],
 			[
 				"arancele",
@@ -2415,86 +1806,6 @@
 			[
 				"autcu",
 				"templates/finanzas/autCursoExamen.html"
-			],
-			[
-				"mise",
-				"static/css/misEstilos.css"
-			],
-			[
-				"deta",
-				"templates/finanzas/detAlumno.html"
-			],
-			[
-				"addcursoalumno",
-				"templates/catedras/addCursoAlumno.html"
-			],
-			[
-				"signal",
-				"apps/catedras/signals.py"
-			],
-			[
-				"detcur",
-				"templates/finanzas/detCurso.html"
-			],
-			[
-				"detalum",
-				"templates/finanzas/detAlumno.html"
-			],
-			[
-				"midel",
-				"apps/middlewares.py"
-			],
-			[
-				"conter",
-				"apps/context_processors.py"
-			],
-			[
-				"produc",
-				"iseapp/settings/production.py"
-			],
-			[
-				"detcurso",
-				"templates/finanzas/detCurso.html"
-			],
-			[
-				"detus",
-				"templates/autorizaciones/detUser.html"
-			],
-			[
-				"detperio",
-				"templates/aranceles/detPeriodo.html"
-			],
-			[
-				"detpl",
-				"templates/finanzas/detPlanPago.html"
-			],
-			[
-				"stag",
-				"iseapp/settings/staging.py"
-			],
-			[
-				"mi",
-				"apps/middlewares.py"
-			],
-			[
-				"anure",
-				"templates/finanzas/anuRecibo.html"
-			],
-			[
-				"apr",
-				"templates/rendiciones/aprRendicion.html"
-			],
-			[
-				"detrendi",
-				"templates/rendiciones/detRendicion.html"
-			],
-			[
-				"detrend",
-				"templates/rendiciones/detRendicion.html"
-			],
-			[
-				"base.h",
-				"templates/base/base.html"
 			]
 		],
 		"width": 0.0
